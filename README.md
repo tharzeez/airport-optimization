@@ -6,12 +6,22 @@ You are given a list of airports (three-letter codes like 'JFK'), a list of rout
 
 # Sample input: 
 
+```
 [ 
 "BGI", "CDG", "DEL", "DOH", "DSM", "EWR", "EYW", "HND", "ICN", "JFK", "LGA", "LHR", "ORD", "SAN", "SFO", "SIN", "TLV", "BUD", 
 ],
+```
+
+```
 [ 
 ["DSM", "ORD"], ["ORD", "BGI"], ["BGI", "LGA"], ["SIN", "CDG"], ["CDG", "SIN"], ["CDG", "BUD"], ["DEL", "DOH"], ["DEL", "CDG"], ["TLV", "DEL"], ["EWR", "HND"], ["1-IND", "ICN"], ["HND", "JFK"] ["ICN", "JFK"], ["JFK", "LGA"], ["EYW", "LHR"], ["LHR", "SFO"], ["SFO", "SAN"], ["SFO", "DSM"], ["SAN", "EYVV"],
- ], 
+ ],
+```
+
+```
 "LGA" 
+```
+
+
 # Sample output:
 3
